@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#333333">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar" aria-label="Điều hướng chính">
+        <a class="logo" href="#" aria-label="MyWebsite - Trang chủ">MyWebsite</a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+        <button
+            class="menu-icon"
+            type="button"
+            aria-label="Mở menu"
+            aria-expanded="false"
+            aria-controls="nav-links"
+        >
+            <span aria-hidden="true">☰</span>
+        </button>
+    </nav>
+</body>
+</html>
